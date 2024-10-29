@@ -25,7 +25,7 @@ func BenchmarkFibonacci1h(b *testing.B) {
 	}
 }
 
-func FuzzHex(f *testing.F) {
+func FuzzFibonacci(f *testing.F) {
 	for _, seed := range [][]int{
 		{0, 1},
 		{1, 1},

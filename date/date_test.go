@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-// go test -run=TestGetWeekDayName -coverprofile=coverage.out date/data_test.go
+// go test -run=TestGetWeekDayName -coverprofile=coverage.out ./.
 // go tool cover -html=coverage.out
 func TestGetWeekDayName(t *testing.T) {
 	var tests = []struct {
